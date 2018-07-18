@@ -21,22 +21,39 @@
   <style>
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
-      color: white;
+      background-color: #F1F4F6;
+      color: #F1F4F6;
       padding: 15px;
     }
   </style>
 
 
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAliRyrUOEJLW50lRjVXBlmkghkk_ACEwk",
+      authDomain: "que-it.firebaseapp.com",
+      databaseURL: "https://que-it.firebaseio.com",
+      projectId: "que-it",
+      storageBucket: "que-it.appspot.com",
+      messagingSenderId: "1036407138251"
+    };
+
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    var storage = firebase.storage();
+
+    firebase.initializeApp(config);
+  </script>
+
 </head>
 
 <body>
   <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://queit.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Que-it</p>
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
@@ -68,7 +85,7 @@
           <li><a href="#">Categories</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login / SignIn</a></li>
+          <li><a href="loginPage.html"><span class="glyphicon glyphicon-user"></span> Login / SignIn</a></li>
         </ul>
       </div>
     </div>
