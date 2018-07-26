@@ -345,13 +345,7 @@ input {
 }
 
 input[type=text]{
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
-  box-shadow:inset 1px 1px 1px #555;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+
 }
 input[type=password] {
   margin-left: 20%;
@@ -378,6 +372,16 @@ input[type=submit] {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+div button.login-btn{
+  background color: green:;
+}
+a.active{
+  color: black;
+}
+a.forgot-password{
+  margin-left: 20%;
+
 }
 .login-body {
   padding: 90px;
