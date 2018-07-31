@@ -1,21 +1,13 @@
-// $(function() {
+function show() {
+	if (document.getElementById('Div1')) {
 
-//   $('#login-form-link').click(function(e) {
-//     $("#login-form").delay(100).fadeIn(100);
-//     $("#register-form").fadeOut(100);
-//     $('#register-form-link').removeClass('active');
-//     $(this).addClass('active');
-//     e.preventDefault();
-//   });
-//   $('#register-form-link').click(function(e) {
-//     $("#register-form").delay(100).fadeIn(100);
-//     $("#login-form").fadeOut(100);
-//     $('#login-form-link').removeClass('active');
-//     $(this).addClass('active');
-//     e.preventDefault();
-//   });
-
-// });
-function hide() {
-  document.getElementById("register-form").style.display="block"
+                if (document.getElementById('Div1').style.display == 'none') {
+                    document.getElementById('Div1').style.display = 'block';
+                    document.getElementById('Div2').style.display = 'none';
+                }
+                else {
+                    document.getElementById('Div1').style.display = 'none';
+                    document.getElementById('Div2').style.display = 'block';
+                }
+            }
 }
