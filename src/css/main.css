@@ -328,12 +328,12 @@ body, html{
   background-color: #037370;
 }
 .container{
-  background-color: none;
+  background-color: green;
   width: 600px;
   height: 800px;
   margin: 8% auto 10px auto;
 }
-.login-from {
+.login-form {
   background-color: #D1C8B0; 
   width: 500px;
   height: 600px;
@@ -342,14 +342,47 @@ body, html{
   -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
   box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
 }
+.logo-form-container {
+  background-color: black;
+  width: 500px;
+  height: 600px;
+
+}
+.logo-container{
+  background-color: grey;
+  width: 100%;
+  height: 15%;
+}
+.form-group{
+  background-color: blue;
+  width: 100%;
+  height: 85%;
+}
+.login-tab{
+  background-color: yellow;
+  float: left;
+  width: 50%;
+}
+.register-tab{
+  background-color: purple;
+  float: right;
+  width: 50%;
+}
+input{
+  font-size: 20px;
+  height: 30px;
+  margin-top: 2%;
+}
+
+
 a.logo {
   text-decoration: none;
   color: white;
   font-size: 56px;
   text-align: center;
-  padding-left: 100%;
 
 }
+/*set location of box outline animation*/
 a.logo:after,
 a.logo:before {
   content: '';
@@ -358,8 +391,6 @@ a.logo:before {
   display: inline-block;
   height: 1em;
   width: 10%;
-  margin: 10px auto;
-  padding-left: 100%;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -387,10 +418,10 @@ a.logo:hover:before {
   transform: scale(1);
 }
 
-.logo-container{
-  display: block;
-  position: absolute;
-  margin: 10px auto;
+
+
+.login-credentials{
+  background-color: black;
 }
 
 
