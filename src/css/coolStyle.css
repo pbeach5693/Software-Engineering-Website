@@ -18,7 +18,7 @@
   margin: none;
 }
 
-.feed .col-sm-3 {
+div[role=feed] .col-sm-3 {
   padding-right: 0;
   padding-left: 0;
   height: 120px;
@@ -32,7 +32,7 @@
   padding-right: 20px;
 }
 
-.feed .row {
+div[role=feed] .row {
   padding-left: 20px;
 }
 
@@ -44,7 +44,7 @@ div.well p {
 
 }
 
-.feed img {
+div[role=feed] img {
   padding: 10px;
 
 }
@@ -52,6 +52,15 @@ div.well p {
 .arrow img {
   height: 50px;
   width: 50px;
-  padding: auto;
+  padding: 10px 10px 20px 10px;
   margin-right: 10%;
+}
+
+.col-sm-9 .well {
+  border-right: none;
+}
+
+.col-sm-1 .well{
+  border-left: none;
+  margin-bottom: 0;
 }
