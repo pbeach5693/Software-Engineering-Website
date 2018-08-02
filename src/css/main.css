@@ -31,6 +31,7 @@ header{
 body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -38,25 +39,25 @@ body {
 }
 nav.navbar {
   background-color: #0FA59E;
-  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 0px;
 }
 .nav.navbar-nav {
-  padding-bottom: 3px;
+  margin-left: 10px;
+  padding-bottom: 4px;
   border-width: 3px;
   border-color: black; 
-}
-.nav.navbar-nav{
-  color: black;
 }
 li a {
   color: white;
   font-size:  20px;
 }
 a.navbar-brandnew{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  padding-right: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 1px  #037370;
   color: white;
 
 }
@@ -65,6 +66,13 @@ span.btn.btn-default {
   color: white;
   background-color: purple;
 }
+
+.foorter{
+  background-color: #037370;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   }
 
 
 
@@ -320,6 +328,17 @@ textarea {
     add loginpage.html below this comment
   ========================================================================== */
 }
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+* {
+  margin:0;
+  padding:0;
+  border:0 none;
+  position: relative;
+  outline: none;
+}
 body, html{
   height: 100%;
   text-align: center;
@@ -328,7 +347,6 @@ body, html{
   background-color: #037370;
 }
 .container{
-  background-color: green;
   width: 600px;
   height: 800px;
   margin: 8% auto 10px auto;
@@ -343,42 +361,22 @@ body, html{
   box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
 }
 .logo-form-container {
-  background-color: black;
   width: 500px;
   height: 600px;
 
 }
 .logo-container{
-  background-color: grey;
-  width: 100%;
+  margin: 0 auto;
+  width: 50%;
   height: 15%;
 }
-.form-group{
-  background-color: blue;
-  width: 100%;
-  height: 85%;
-}
-.login-tab{
-  background-color: yellow;
-  float: left;
-  width: 50%;
-}
-.register-tab{
-  background-color: purple;
-  float: right;
-  width: 50%;
-}
-input{
-  font-size: 20px;
-  height: 30px;
-  margin-top: 2%;
-}
-
-
 a.logo {
   text-decoration: none;
-  color: white;
-  font-size: 56px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #0FA59E;
+  text-shadow: .5px 1px 1px #000;  
+  font-weight: normal;
+  font-size: 70px;
   text-align: center;
 
 }
@@ -386,29 +384,30 @@ a.logo {
 a.logo:after,
 a.logo:before {
   content: '';
+  color: white;
   position: absolute;
+  margin-left: -10%;
+  margin-top: 10%;
+  width: 220px;
   left: 0;
   display: inline-block;
   height: 1em;
-  width: 10%;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  
 }
-
+/*
 a.logo:before {
   border-left: 1px solid;
   border-right: 1px solid;
   -webkit-transform: scale(1,0);
   transform: scale(1,0);
-}
+}*/
 
 a.logo:after {
-  border-bottom: 1px solid;
-  border-top: 1px solid;
+  border-bottom: 5px solid;
   -webkit-transform: scale(0,1);
-  transform: scale(1,2);
+  transform: scale(0,1);
 }
 
 a.logo:hover:after,
@@ -417,6 +416,78 @@ a.logo:hover:before {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+
+.form-group{
+  background-color: none;
+  width: 100%;
+  height: 85%;
+}
+.login-tab{
+  float: left;
+  width: 50%;
+}
+.register-tab{
+  float: right;
+  width: 50%;
+  margin-bottom: 2%;
+}
+a.tabber{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px #594E47;
+}
+.username-password-group {
+  margin-top: 3%;
+}
+/*input[type="text"] { 
+  font-size: 20px;
+  height: 30px;
+  margin-top: 2%;
+}*/
+.form-container-login input[type="text"],.form-container-login input[type="password"] {
+  height: 55px;
+  width: 70%;
+  border: 1px solid #ddd;
+  font-size: 24px;
+  box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+input[type="checkbox"]{
+  margin-left: -45%;
+}
+
+.checkbox-containter {
+}
+.form-container-login input:hover,
+.form-container-login input:active,
+.form-container-login input:focus {
+  outline:none;
+  box-shadow: 1px 1px 5px 1px #594E47;
+}
+
+input[type="submit"]{
+  background-color: #0FA59E;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-shadow: .5px .5px black;
+  width: 70%;
+  height: 36px;
+  border-radius: 3px;
+  border: none;
+}
+
+a.forgot-password {
+  margin-left: -45%;
+  color: white;
+  text-shadow: .5px .5px 10px #594E47;
+}
+
+
 
 
 
@@ -432,7 +503,7 @@ div.text-center {
 .login-body {
   padding: 90px;
 }
-
+/*
 input[type=password],[type=text] {
   margin-left: 20%;
   margin-right: 20%;
@@ -459,11 +530,9 @@ input[type=submit] {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-
+*/
 a.active{
-  color: black;
+  text-decoration: underline;
+  text-decoration-color: #0FA59E; 
 }
-a.forgot-password{
-  margin-left: 20%;
 
-}
