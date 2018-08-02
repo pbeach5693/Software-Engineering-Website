@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>QueIt</title>
+  <title>QueIt | A Q&A Website</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Noto+Sans" rel="stylesheet">
@@ -11,6 +11,10 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <!-- My own concoction -->
+  <link rel="stylesheet" type="text/css" href="css/coolStyle.css">
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
@@ -24,10 +28,8 @@
       storageBucket: "que-it.appspot.com",
       messagingSenderId: "1036407138251"
     };
-
     // Get a reference to the storage service, which is used to create references in your storage bucket
     var storage = firebase.storage();
-
     firebase.initializeApp(config);
   </script>
 
@@ -95,65 +97,77 @@
           </p>
         </div>
       </div>
-      <div class="col-sm-7">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="well">
-              <p>dorkyDave</p>
-          <img src="img/profile/avatar-2.imageset/avatar-2.png" class="img-circle" height="65" width="65" alt="Avatar">
+      <div class="feed">
+	      <div class="col-sm-7">
+	        <div class="row">
+	          <div class="col-sm-2 pie">
+	            <div class="well pie">
+	              <p>dorkyDave</p>
+	          <img src="img/profile/avatar-2.imageset/avatar-2.png" class="img-circle" height="65" width="65" alt="Avatar">
+	            </div>
+	          </div>
+	          <div class="col-sm-9 pie">
+	            <div class="well pie">
+	              <p>How do you solve for the x intercepts of a parabola?</p>
+	            </div>
+	          </div>
+            <div class="col-sm-1 pie">
+              <div class="well pie">
+                <div class="arrow">
+                  <img src="img/Icons/arrowup.png">
+                  <img src="img/Icons/arrowdown.png">
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-9">
-            <div class="well">
-              <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="well">
-              <p>flirtyFrancis</p>
-          <img src="img/profile/avatar-3.imageset/avatar-3.png" class="img-circle" height="65" width="65" alt="Avatar">
-            </div>
-          </div>
-          <div class="col-sm-9">
-            <div class="well">
-              <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="well">
-              <p>beardedBill</p>
-          <img src="img/profile/avatar-4.imageset/avatar-4.png" class="img-circle" height="65" width="65" alt="Avatar">
-            </div>
-          </div>
-          <div class="col-sm-9">
-            <div class="well">
-              <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="well">
-              <p>stachioSergio</p>
-          <img src="img/profile/avatar-5.imageset/avatar-5.png" class="img-circle" height="65" width="65" alt="Avatar">
-            </div>
-          </div>
-          <div class="col-sm-9">
-            <div class="well">
-              <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-sm-3 pie">
+	            <div class="well pie">
+	              <p>flirtyFrancis</p>
+	          <img src="img/profile/avatar-3.imageset/avatar-3.png" class="img-circle" height="65" width="65" alt="Avatar">
+	            </div>
+	          </div>
+	          <div class="col-sm-9 pie">
+	            <div class="well pie">
+	              <p>What is the difference between a verb and an adverb?</p>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-sm-3 pie">
+	            <div class="well pie">
+	              <p>beardedBill</p>
+	          <img src="img/profile/avatar-4.imageset/avatar-4.png" class="img-circle" height="65" width="65" alt="Avatar">
+	            </div>
+	          </div>
+	          <div class="col-sm-9 pie">
+	            <div class="well pie">
+	              <p>In "The Road Not Taken" by Robert Frost, what does mean when he says, "Oh, I kept the first for another day!"?</p>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-sm-3 pie">
+	            <div class="well pie">
+	              <p>stachioSergio</p>
+	          <img src="img/profile/avatar-5.imageset/avatar-5.png" class="img-circle" height="65" width="65" alt="Avatar">
+	            </div>
+	          </div>
+	          <div class="col-sm-9 pie">
+	            <div class="well pie">
+	              <p>In HTML5 what is the difference between the "class" tag and the "id" tag?</p>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+  	  </div>
     </div>
   </div>
 
+  <!--
   <footer class="foorter">
   </footer>
+  -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

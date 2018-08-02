@@ -1,0 +1,57 @@
+.pie {
+  padding-right: 0;
+  padding-left: 0;
+  height: 120px;
+  border-radius: 0;
+}
+
+.cake {
+  height: 70%;
+  margin: 0;
+  padding-bottom: 0; 
+  /* Add padding on top to second column */
+}
+
+.nothing {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: none;
+}
+
+.feed .col-sm-3 {
+  padding-right: 0;
+  padding-left: 0;
+  height: 120px;
+}
+
+.leftpad {
+  padding-left: 20px;
+}
+
+.rightpad {
+  padding-right: 20px;
+}
+
+.feed .row {
+  padding-left: 20px;
+}
+
+div.well p {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 0;
+
+}
+
+.feed img {
+  padding: 10px;
+
+}
+
+.arrow img {
+  height: 50px;
+  width: 50px;
+  padding: auto;
+  margin-right: 10%;
+}
