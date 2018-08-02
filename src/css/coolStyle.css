@@ -18,11 +18,7 @@
   margin: none;
 }
 
-div[role=feed] .col-sm-3 {
-  padding-right: 0;
-  padding-left: 0;
-  height: 120px;
-}
+
 
 .leftpad {
   padding-left: 20px;
@@ -32,8 +28,27 @@ div[role=feed] .col-sm-3 {
   padding-right: 20px;
 }
 
+div[role=feed], div[role=profile], .row {
+  margin: 0 auto;
+}
+
 div[role=feed] .row {
   padding-left: 20px;
+}
+
+div[role=feed] img {
+  padding: 10px;
+
+}
+
+div[role=feed] .col-sm-3 {
+  padding-right: 0;
+  padding-left: 0;
+  height: 120px;
+}
+
+div[role=profile] {
+  margin-left: 10%;
 }
 
 div.well p {
@@ -41,11 +56,6 @@ div.well p {
   padding-left: 10px;
   padding-right: 5px;
   margin-bottom: 0;
-
-}
-
-div[role=feed] img {
-  padding: 10px;
 
 }
 
