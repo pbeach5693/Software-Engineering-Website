@@ -1,0 +1,76 @@
+.pie {
+  padding-right: 0;
+  padding-left: 0;
+  height: 120px;
+  border-radius: 0;
+}
+
+.cake {
+  height: 70%;
+  margin: 0;
+  padding-bottom: 0; 
+  /* Add padding on top to second column */
+}
+
+.nothing {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: none;
+}
+
+
+
+.leftpad {
+  padding-left: 20px;
+}
+
+.rightpad {
+  padding-right: 20px;
+}
+
+div[role=feed], div[role=profile], .row {
+  margin: 0 auto;
+}
+
+div[role=feed] .row {
+  padding-left: 20px;
+}
+
+div[role=feed] img {
+  padding: 10px;
+
+}
+
+div[role=feed] .col-sm-3 {
+  padding-right: 0;
+  padding-left: 0;
+  height: 120px;
+}
+
+div[role=profile] {
+  margin-left: 10%;
+}
+
+div.well p {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 0;
+
+}
+
+.arrow img {
+  height: 50px;
+  width: 50px;
+  padding: 10px 10px 20px 10px;
+  margin-right: 10%;
+}
+
+.col-sm-9 .well {
+  border-right: none;
+}
+
+.col-sm-1 .well{
+  border-left: none;
+  margin-bottom: 0;
+}
