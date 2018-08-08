@@ -32,6 +32,10 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Noto Sans', sans-serif;
+<<<<<<< HEAD
+=======
+  font-weight: bold;
+>>>>>>> master
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -338,6 +342,7 @@ textarea {
   border:0 none;
   position: relative;
   outline: none;
+<<<<<<< HEAD
 }
 body, html{
   height: 100%;
@@ -365,6 +370,35 @@ body, html{
   height: 600px;
 
 }
+=======
+}
+body, html{
+  height: 100%;
+  text-align: center;
+}
+.page{
+  background-color: #037370;
+}
+.container{
+  width: 600px;
+  height: 800px;
+  margin: 8% auto 10px auto;
+}
+.login-form {
+  background-color: #D1C8B0; 
+  width: 500px;
+  height: 600px;
+  margin: 10px auto;
+  -webkit-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+}
+.logo-form-container {
+  width: 500px;
+  height: 600px;
+
+}
+>>>>>>> master
 .logo-container{
   margin: 0 auto;
   width: 50%;
@@ -425,12 +459,21 @@ a.logo:hover:before {
 .login-tab{
   float: left;
   width: 50%;
+<<<<<<< HEAD
 }
 .register-tab{
   float: right;
   width: 50%;
   margin-bottom: 2%;
 }
+=======
+}
+.register-tab{
+  float: right;
+  width: 50%;
+  margin-bottom: 2%;
+}
+>>>>>>> master
 a.tabber{
   text-decoration: none;
   font-size: 30px;
@@ -531,6 +574,7 @@ input[type=submit] {
   border-radius: 5px;
 }
 */
+<<<<<<< HEAD
 .first-last-name {
 }
 .firstname, .lastname {
@@ -607,10 +651,16 @@ body.question-page {
   padding-top: 5%;
   padding-left: 25px;
   text-align: left;
+=======
+a.active{
+  text-decoration: underline;
+  text-decoration-color: #0FA59E; 
+>>>>>>> master
 }
 .lum-p {
   font-size: 25px;
 
+<<<<<<< HEAD
 }
 .llm-p {
 }
@@ -681,3 +731,5 @@ body.question-page {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.15);
 }
 
+=======
+>>>>>>> master

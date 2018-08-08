@@ -73,4 +73,16 @@ div.well p {
 .col-sm-1 .well{
   border-left: none;
   margin-bottom: 0;
+<<<<<<< HEAD
+=======
+}
+
+#profile-picture {
+  margin-bottom: 10px;
+}
+
+#question {
+  background-color: #0FA59E;
+  color: white;
+>>>>>>> master
 }
