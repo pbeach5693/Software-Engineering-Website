@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/coolStyle.css">
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+      var config = {
+         apiKey: "AIzaSyAliRyrUOEJLW50lRjVXBlmkghkk_ACEwk",
+         authDomain: "que-it.firebaseapp.com",
+         databaseURL: "https://que-it.firebaseio.com",
+         projectId: "que-it",
+         storageBucket: "que-it.appspot.com",
+         messagingSenderId: "1036407138251"
+    };
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    var storage = firebase.storage();
+    firebase.initializeApp(config);
+  </script>
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+ <nav class="navbar navbar-inverese">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brandnew" href="#">QueIt</a> -->
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group input-group">
+            <input type="text" class="form-control" placeholder="Search..">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+          </div>
+        </form>
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="navbar-brandnew" href="index.html">QueIt</a></li>
+          <li><a href="question_form.html">Post</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="loginPage.html"><span class="glyphicon glyphicon-user"></span> Login / SignIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container-fluid">
+  <h1>Question...</h1>
+  <div class="row" style="border: 1px solid #A9A9A9">
+    <div align="right" class="col-md-11" style="background-color:#F0FFFF;">
+      <br><p align="left">Questions will be asked here and retreived through firebase...</p><br>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" ">
+  <h1>Answers</h1>
+  <div class="row" style="border: 1px solid #A9A9A9">
+    <div class="col-sm-4" style="background-color:white;"style="border: 1px solid black">
+      <p>Username/Anonymous...</p>
+    </div>
+    <div class="col-sm-8" style="background-color:#F0FFFF;">
+      <p align="left">Answer to question...</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="row marketing">
+        
+        
+      </div>
+      <footer class="footer">
+        <br><br><p>© Que-it 2018</p>
+      </footer>
+    </div> <!-- /container -->
+  
+</body>
+</html>
