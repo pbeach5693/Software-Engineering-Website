@@ -10,6 +10,9 @@ function show() {
                     document.getElementById('Div2').style.display = 'block';
                 }
             }
+<<<<<<< HEAD
+}
+=======
 }
 
 /**
@@ -126,3 +129,4 @@ function sendPasswordReset() {
   });
   // [END sendpasswordemail];
 }
+>>>>>>> master
