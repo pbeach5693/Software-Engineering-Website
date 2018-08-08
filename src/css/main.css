@@ -36,23 +36,26 @@ body {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-
 }
+
 nav.navbar {
   background-color: #0FA59E;
   font-family: 'Noto Sans', sans-serif;
   border-radius: 0px;
 }
+
 .nav.navbar-nav {
   margin-left: 10px;
   padding-bottom: 4px;
   border-width: 3px;
   border-color: black; 
 }
+
 li a {
   color: white;
   font-size:  20px;
 }
+
 a.navbar-brandnew{
   font-family: 'Noto Sans', sans-serif;
   font-size: 40px;
@@ -60,7 +63,6 @@ a.navbar-brandnew{
   text-align: center;
   text-shadow: 1px 1px 1px  #037370;
   color: white;
-
 }
 
 span.btn.btn-default {
@@ -73,9 +75,8 @@ span.btn.btn-default {
   position:absolute;
   bottom:0;
   width:100%;
-  height:60px;   }
-
-
+  height:60px;   
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -340,6 +341,7 @@ textarea {
   position: relative;
   outline: none;
 }
+
 body, html{
   height: 100%;
   text-align: center;
@@ -366,6 +368,35 @@ body, html{
   height: 600px;
 
 }
+
+}
+body, html{
+  height: 100%;
+  text-align: center;
+}
+.page{
+  background-color: #037370;
+}
+.container{
+  width: 600px;
+  height: 800px;
+  margin: 8% auto 10px auto;
+}
+.login-form {
+  background-color: #D1C8B0; 
+  width: 500px;
+  height: 600px;
+  margin: 10px auto;
+  -webkit-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+}
+.logo-form-container {
+  width: 500px;
+  height: 600px;
+
+}
+
 .logo-container{
   margin: 0 auto;
   width: 50%;
@@ -432,6 +463,13 @@ a.logo:hover:before {
   width: 50%;
   margin-bottom: 2%;
 }
+}
+.register-tab{
+  float: right;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
 a.tabber{
   text-decoration: none;
   font-size: 30px;
@@ -488,10 +526,6 @@ a.forgot-password {
   text-shadow: .5px .5px 10px #594E47;
 }
 
-
-
-
-
 .login-credentials{
   background-color: black;
 }
@@ -532,8 +566,157 @@ input[type=submit] {
   border-radius: 5px;
 }
 */
+
+.first-last-name {
+}
+.firstname, .lastname {
+  width: 50%;
+}
+.firstname {
+  float: left;
+}
+.lastname {
+  float: right;
+}
+
+.form-container-register input[type= "name"] {
+  height: 40px;
+  width: 80%;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.form-container-register input[type= "other"] {
+  height: 40px;
+  width: 60%;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
 a.active{
   text-decoration: underline;
   text-decoration-color: #0FA59E; 
 }
 
+
+/* ==========================================================================
+  question_form.html:
+    add loginpage.html below this comment
+  ========================================================================== */
+
+body.question-page {
+  background-color: #037370;
+  font-family: Roboto, sans-serif;
+}
+.col-left {
+ float: left;
+ width: 40%;
+}
+
+.left-message{
+  border: solid;
+  border-width: 1px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 450px;
+  height: 400px;
+}
+
+.left-upper-message {
+
+  padding-top: 25%;
+  padding-left: 25px;
+  text-align: left;
+}
+.left-lower-message{
+  font-weight: lighter;
+  padding-top: 5%;
+  padding-left: 25px;
+  text-align: left;
+
+  a.active{
+  text-decoration: underline;
+  text-decoration-color: #0FA59E; 
+}
+.lum-p {
+  font-size: 25px;
+
+}
+.llm-p {
+}
+.col-right {
+  float: right;
+  width: 60%;
+  color: white;
+}
+.question-container {
+  text-color: white;
+  border-width: 1px;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+.group-label {
+  float: left;
+  clear: right;
+  padding-left: 10%;
+  padding-right: 50%;
+}
+.form-post {
+  color: white;
+  font-size: 25px;
+  background-color: #0FA59E;
+  border: solid white;
+  border-width: 1px;
+  width: 80%;
+}
+
+.form-content {
+  color: white;
+  font-size: 25px;
+  background-color: #0FA59E;
+  resize: none;
+  border: solid white;
+  border-width: 1px;
+  min-height: 325px;
+  width: 80%;
+}
+
+.cancel-btn {
+  background-color: #D4371D;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  float: left;
+  margin-left: 10%;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+}
+.submit-btn {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  float: right;
+  margin-right: 10%;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.form-group-btn button:hover,
+.form-group-btn button:focus {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.15);
+}

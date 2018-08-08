@@ -74,3 +74,12 @@ div.well p {
   border-left: none;
   margin-bottom: 0;
 }
+
+#profile-picture {
+  margin-bottom: 10px;
+}
+
+#question {
+  background-color: #0FA59E;
+  color: white;
+}
