@@ -32,30 +32,30 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Noto Sans', sans-serif;
-<<<<<<< HEAD
-=======
   font-weight: bold;
->>>>>>> master
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-
 }
+
 nav.navbar {
   background-color: #0FA59E;
   font-family: 'Noto Sans', sans-serif;
   border-radius: 0px;
 }
+
 .nav.navbar-nav {
   margin-left: 10px;
   padding-bottom: 4px;
   border-width: 3px;
   border-color: black; 
 }
+
 li a {
   color: white;
   font-size:  20px;
 }
+
 a.navbar-brandnew{
   font-family: 'Noto Sans', sans-serif;
   font-size: 40px;
@@ -63,7 +63,6 @@ a.navbar-brandnew{
   text-align: center;
   text-shadow: 1px 1px 1px  #037370;
   color: white;
-
 }
 
 span.btn.btn-default {
@@ -76,9 +75,8 @@ span.btn.btn-default {
   position:absolute;
   bottom:0;
   width:100%;
-  height:60px;   }
-
-
+  height:60px;   
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -342,7 +340,35 @@ textarea {
   border:0 none;
   position: relative;
   outline: none;
-<<<<<<< HEAD
+}
+
+body, html{
+  height: 100%;
+  text-align: center;
+}
+.page{
+  background-color: #037370;
+}
+.container{
+  width: 600px;
+  height: 800px;
+  margin: 8% auto 10px auto;
+}
+.login-form {
+  background-color: #D1C8B0; 
+  width: 500px;
+  height: 600px;
+  margin: 10px auto;
+  -webkit-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
+}
+.logo-form-container {
+  width: 500px;
+  height: 600px;
+
+}
+
 }
 body, html{
   height: 100%;
@@ -370,35 +396,7 @@ body, html{
   height: 600px;
 
 }
-=======
-}
-body, html{
-  height: 100%;
-  text-align: center;
-}
-.page{
-  background-color: #037370;
-}
-.container{
-  width: 600px;
-  height: 800px;
-  margin: 8% auto 10px auto;
-}
-.login-form {
-  background-color: #D1C8B0; 
-  width: 500px;
-  height: 600px;
-  margin: 10px auto;
-  -webkit-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
-  -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
-  box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.2);
-}
-.logo-form-container {
-  width: 500px;
-  height: 600px;
 
-}
->>>>>>> master
 .logo-container{
   margin: 0 auto;
   width: 50%;
@@ -459,21 +457,19 @@ a.logo:hover:before {
 .login-tab{
   float: left;
   width: 50%;
-<<<<<<< HEAD
 }
 .register-tab{
   float: right;
   width: 50%;
   margin-bottom: 2%;
 }
-=======
 }
 .register-tab{
   float: right;
   width: 50%;
   margin-bottom: 2%;
 }
->>>>>>> master
+
 a.tabber{
   text-decoration: none;
   font-size: 30px;
@@ -530,10 +526,6 @@ a.forgot-password {
   text-shadow: .5px .5px 10px #594E47;
 }
 
-
-
-
-
 .login-credentials{
   background-color: black;
 }
@@ -574,7 +566,7 @@ input[type=submit] {
   border-radius: 5px;
 }
 */
-<<<<<<< HEAD
+
 .first-last-name {
 }
 .firstname, .lastname {
@@ -651,16 +643,14 @@ body.question-page {
   padding-top: 5%;
   padding-left: 25px;
   text-align: left;
-=======
-a.active{
+
+  a.active{
   text-decoration: underline;
   text-decoration-color: #0FA59E; 
->>>>>>> master
 }
 .lum-p {
   font-size: 25px;
 
-<<<<<<< HEAD
 }
 .llm-p {
 }
@@ -730,6 +720,3 @@ a.active{
 .form-group-btn button:focus {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.15);
 }
-
-=======
->>>>>>> master
