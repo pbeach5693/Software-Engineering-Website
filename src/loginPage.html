@@ -54,14 +54,16 @@
         <div class="form-group">
           <div class="login-register-tabs">
             <div class="login-tab">
-                <a href="#" id="login-form-link" class="tabber active">Login</a>
+                <a href="#" onclick="showLog();" id="login-form-link" class="tabber">Login</a>
             </div>
             <div class="register-tab">
-                <a href="#" id="Register-form-link" class="tabber">Register</a>
+                <a href="#" onclick="showReg()" id="Register-form-link" class="tabber">Register</a>
             </div>
           </div>
+        </div>
+        <div class="form-group">
           <div class="form-container-login">
-            <div id="login-form" method="post" role="form" style="display: block;">
+            <div id="login-form" method="post" role="form" >
               <div class="username-password-group">
                 <input type="text" name="username" id="username" tabindex="1" class="form-controller" placeholder="Username" value="">
               </div>
@@ -80,37 +82,37 @@
               </div>
             </div>
           </div>
-
-
+        </div>
+<!--
+        <div class="form-group">
           <div class="form-container-register">
-          	<div id="register-form" method="post" role="form" style="display: block;">
-          		<div class="first-last-name">
+          	<div id="register-form" method="post" role="form">
+          		<div class="username-password-group">
           			<div class="firstname">
-                		<input type="name" name="username" id="username" tabindex="1" class="form-controller" placeholder="First name" value="">
-              		</div>
+                	<input type="name" name="username" id="username" tabindex="1" class="form-controller" placeholder="First name" value="">
               	</div>
-              	<div class="first-last-name">
-		              <div class="lastname">
-		                <input type="name" name="username" id="username" tabindex="2" class="form-controller" placeholder="Last name" value="">
-		              </div>
+              </div>
+              <div class="username-password-group">
+                <div class="lastname">
+                  <input type="name" name="username" id="username" tabindex="2" class="form-controller" placeholder="Last name" value="">
+                </div>
+		          </div>
+            </div>
+            <div class="username-password-group">
+              <input type="other" name="username" id="username" tabindex="3" class="form-controller" placeholder="email" value="">
+            </div>
+            <div class="username-password-group">
+              <input type="other" name="password" id="password" tabindex="4" class="form-controller" placeholder="Password">
+            </div>
+            <div class="username-password-group">
+              <input type="other" name="username" id="username" tabindex="5" class="form-controller" placeholder="phone " value="">
+            </div>
+            <div class="username-password-group">
+              <input type="submit" name="login-submit" id="login-submit" tabindex="6" onclick="toggleSignIn()" class="submit-btn" value="Log In">
 		        </div>
-		        </div>
-		        <div class="form-container-register">
-		              <div class="username-password-group">
-		                <input type="other" name="username" id="username" tabindex="3" class="form-controller" placeholder="email" value="">
-		              </div>
-		              <div class="username-password-group">
-		                <input type="other" name="password" id="password" tabindex="4" class="form-controller" placeholder="Password">
-		              </div>
-		              <div class="username-password-group">
-		                <input type="other" name="username" id="username" tabindex="5" class="form-controller" placeholder="phone " value="">
-		              </div>
-		              <div class="username-password-group">
-		                <input type="submit" name="login-submit" id="login-submit" tabindex="6" onclick="toggleSignIn()" class="submit-btn" value="Log In">
-		              </div>
-		        </div>
-		      </div>
-           	 </div>
+          </div>
+        </div>
+-->
           </div>
         </div>
       </div>

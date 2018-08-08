@@ -11,6 +11,25 @@ function show() {
                 }
             }
   }
+function showLogin() {
+  var logDiv = document.getElementById("form-container-login");
+  var regDiv = document.getElementById("form-container-register");
+
+  if (logDiv.style.display === "none") {
+    logDiv.style.display = "block";
+    regDiv.style.display = "none";
+  }
+
+}
+function showReg() {
+  var logDiv = document.getElementById("form-container-login");
+  var regDiv = document.getElementById("form-container-register");
+
+  if (regDiv.style.display === "none") {
+    regDiv.style.display = "block";
+    logDiv.style.display = "none";
+  }
+
 }
 
 /**
