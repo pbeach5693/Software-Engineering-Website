@@ -1,34 +1,5 @@
 # [Queit](https://que-it.com/)
 
-[![Build Status](https://travis-ci.org/pbeach5693/Software-Engineering-Website.svg?branch=master)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
-
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
-
-This project is the product of years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
-
-* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Twitter: [@h5bp](https://twitter.com/h5bp)
-
-
-## Quick start
-
-Choose one of the following options:
-
-1. Download the latest stable release from
-   [html5boilerplate.com](https://html5boilerplate.com/).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-   [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-   you'd like to use.
-3. Run `npm install html5-boilerplate` and pull in what you need from the resulting `node_modules/html5-boilerplate/dist`
-
-
 ## Features
 
 * HTML5 ready. Use the new elements with confidence.
